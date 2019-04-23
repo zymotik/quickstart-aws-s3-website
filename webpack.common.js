@@ -20,7 +20,14 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  plugins: [new HtmlWebpackPlugin({
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: './src/index.html'
-  })],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'error.html',
+      template: './src/error.html'
+    }),
+  ],
 };

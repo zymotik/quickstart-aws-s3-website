@@ -1,4 +1,4 @@
-# Quickstart: AWS S3 Website Hosting with terraform, webpack & TypeScript baked in
+# Quickstart: Amazon AWS S3 website hosting with Terraform, WebPack & TypeScript baked in
 
 ## Goal
 

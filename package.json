@@ -10,6 +10,7 @@
     "deploy:build": "npm run build",
     "deploy:generate-file-list": "ts-node quickstart-files-generator.ts",
     "deploy:terraform-apply": "terraform apply",
+    "destory": "terraform destroy",
     "postinstall": "terraform init"
   },
   "repository": {

@@ -1,7 +1,7 @@
 function component() {
     const element = document.createElement('div');
   
-    element.innerHTML = ['google', 'drive', 'compare'].join('-');
+    element.innerHTML = ['quickstart', 'aws', 's3', 'website'].join('-');
   
     return element;
   }
